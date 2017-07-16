@@ -1,0 +1,365 @@
+/* basic structure styles */
+
+
+body {
+    /*height: 4000px;*/
+    background: #F2F2F2;
+    font-family: 'Yanone Kaffeesatz', sans-serif;
+    text-align: justify;
+}
+
+/* basic structure styles */
+
+.container { width: 970px; margin:auto; height: 100%;}
+
+/* header styles */
+
+.header {
+    overflow: hidden;
+}
+
+.header .slider {
+    height: 550px;
+    background-image: url(../images/myslider.jpg);
+    background-size: 100% 100%;
+    text-align: center;
+}
+
+.header .slider .container .slider-text {
+    font-size: 50px;
+    color: #2FCC73;
+    position: relative;
+    top: 70%;
+    width: 70%;
+    margin: auto;
+    font-weight: bold;
+    border-bottom: 5px solid;
+    border-top: 5px solid;
+}
+
+.header .slider .container .learn-more {
+    font-size: 30px;
+    color: #2FCC73;
+    position: relative;
+    top: 75%;
+    padding: 10px;
+    border: 2px solid;
+    margin: auto;
+    width: 20%;
+    display: block;
+    text-decoration: none;
+}
+
+
+.header .navbar { background-color: #252F31; min-height: 75px; }
+
+.header .navbar .container { overflow: hidden; color: #FFFFFD; }
+
+.header .navbar .container h2 { 
+    float:left; 
+    text-transform: uppercase; 
+    margin-top: 19px;
+    color: #DDD;
+}
+
+.header .navbar .container h2 span {color: #2FCC73;}
+
+.header .navbar .container ul {
+    float:right;
+    overflow: hidden;
+    list-style: none;
+    padding: 0;
+    margin-top: 10px;
+    font-size: 20px;
+}
+
+.header .navbar .container ul li { 
+    float: left; 
+    padding: 10px;
+    
+}
+
+.header .navbar .container .navbar-link {
+    text-decoration: none;
+    color: #DDD;
+}
+
+/* change the color of the navbar element when focus on it.*/
+.header .navbar .container .navbar-link:hover {
+    color: #2FCC73;
+}
+
+/* header styles */
+
+.section2 {
+    background: #FFF;
+    padding: 20px 0;
+}
+
+.section2 .container {
+    overflow: hidden;
+}
+
+.section2 .container p {
+    color: #AAA;
+    font-size: 18px;
+}
+
+.section2 .container .subsection {
+    float: left;
+    width: 30%;
+    margin-left: 5%
+}
+
+.section2 .container .values {
+    margin-left: 0;
+}
+
+.section2 h3 {
+    text-transform: uppercase;
+    color: #888;
+}
+
+.aboutme {
+    overflow: hidden;
+}
+
+.aboutme img {
+    float: left;
+    width: 33%;
+}
+
+.aboutme .aboutme-data {
+    /*margin: 6%;*/
+    float: left;
+    padding: 5% 0 0 5%;
+    width: 50%;
+    /*width: 55%;*/
+}
+
+
+.aboutme .aboutme-data .aboutme-header{
+    font-size: 30px;
+    text-transform: uppercase;
+    font-weight: bold;
+    color: #566163;
+}
+
+.aboutme .aboutme-data .aboutme-body {
+    font-size: 18px;
+    color: #AAA;
+    font-weight: bold;
+}
+
+.aboutme .aboutme-data .aboutme-body .codeforces-link {
+    text-decoration: none;
+    color: #2FCC73;
+    text-transform: uppercase;
+}
+
+.aboutme .aboutme-data .some-skills {
+    overflow: hidden;
+}
+
+.aboutme .aboutme-data .some-skills .skill {
+    float: left;
+    width: 50%;
+    overflow: hidden;
+    margin-top: 5%;
+}
+
+.aboutme .aboutme-data .some-skills .skill i {
+    color: #2FCC73;
+    /*font-weight: bold;*/
+    /*font-size: 36px;*/
+    width: 10%;
+    float: left;
+    
+}
+
+.aboutme .aboutme-data .some-skills .skill .skill-text {
+    float: left;
+    width: 80%;
+    margin:0 5%;
+    overflow: hidden;
+}
+
+
+.aboutme .aboutme-data .some-skills .skill .skill-header {
+    font-size: 24px;
+    text-transform: uppercase;
+    font-weight: bold;
+    float: left;
+    color: #566163;
+}
+
+.aboutme .aboutme-data .some-skills .skill .skill-body {
+    font-size: 18px;
+    font-weight: bold;
+    float: left;
+    color: #AAA;
+    padding-right: 10%;
+    
+}
+
+.skills {
+    /*height: 500px;*/
+    margin-top: 10%;
+    background-color: #DDD;
+    padding-top: 5%;
+}
+
+.skills .container {
+    overflow: hidden;
+}
+
+.skills .container .skills-right-part {
+    color: #555;
+    float: left;
+    text-align: center;
+}
+
+.skills .container .skills-right-part .skills-right-part-header {
+    text-transform: uppercase;
+    text-align: center;
+    font-size: 36px;
+    font-weight: bold;
+}
+
+.skills .container .skills-right-part p {
+    font-size: 24px;
+    margin-bottom: 50px;
+}
+
+
+/*
+.skills .container .skills-right-part .link-container {
+    margin: auto;
+    text-align: center;
+    height: 70px;
+    
+}*/
+
+.skills .container .skills-right-part /*.link-container*/ .link {
+    text-decoration: none;
+    color: #2FCC73;
+    font-size: 18px;
+    font-weight: bold;
+    border: 3px solid #2FCC73;
+    padding: 10px 30px;
+    margin: auto;
+    
+}
+
+.skills .container .skills-left-part {
+    width: 100%;
+    margin-top: 5%;
+    float: left;
+}
+
+.skills .container .skills-left-part .skill {
+    margin-bottom: 8%;
+    float:left;
+    width: 45%;
+
+}
+
+.skills .container .skills-left-part .skill.left {
+    margin-right: 10%
+}
+
+.skills .container .skills-left-part .skill .skill-name {
+    font-size: 24px;
+    color: #555;
+    margin-bottom: 10px;
+}
+
+.skills .container .skills-left-part progress {
+    background-color: #2FCC73;
+    width: 100%;
+    
+}
+
+.resume .container{
+    text-align: center;
+    height: 270px;
+}
+
+.resume .container .resume-header {
+    color: #888;
+    font-size: 32px;
+    font-weight: bold;
+    padding-top: 50px;
+    text-transform: uppercase;
+    margin:auto;
+}
+
+.resume .container .resume-text {
+    font-size: 24px;
+    color: #AAA;
+    margin-bottom: 50px;
+    padding-top: 50px;
+}
+
+.resume .container .resume-link {
+    font-size: 24px;
+    color: #2FCC73;
+    border: 2px solid #2FCC73;
+    margin: auto;
+    padding: 10px 60px;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+.footer {
+    text-align: center;
+    padding: 50px 0 50px 0;
+    background-color: #222;
+}
+
+.footer .copyright {
+    font-size: 24px;
+    color: #888;
+    margin: auto;
+}
+
+.footer .contact i {
+    color: #888;
+    margin-left: 10px;
+    margin-top: 20px;
+}
+
+.footer .contact i:hover {
+    color: #2FCC73;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

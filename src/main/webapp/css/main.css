@@ -231,16 +231,7 @@ body {
     margin-bottom: 50px;
 }
 
-
-/*
-.skills .container .skills-right-part .link-container {
-    margin: auto;
-    text-align: center;
-    height: 70px;
-    
-}*/
-
-.skills .container .skills-right-part /*.link-container*/ .link {
+.skills .container .skills-right-part .link {
     text-decoration: none;
     color: #2FCC73;
     font-size: 18px;
@@ -253,12 +244,13 @@ body {
 
 .skills .container .skills-left-part {
     width: 100%;
-    margin-top: 5%;
+    margin: 5% 0;
     float: left;
 }
 
 .skills .container .skills-left-part .skill {
-    margin-bottom: 8%;
+    margin-bottom: 5%;
+    height: 30px;
     float:left;
     width: 45%;
 
